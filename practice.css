@@ -1,0 +1,16 @@
+*{
+    background-color:#000;
+    background-image: url(images/header-image.png);
+}
+body{
+}
+.navigation{
+    height: 30px;
+    width: 100%;
+}
+.logo{
+    height: 20px;
+    /* width: 60; */
+    padding: 20px;
+    margin-left: 70px;
+}

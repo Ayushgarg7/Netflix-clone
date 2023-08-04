@@ -1,0 +1,87 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles for header */
+header {
+  position: sticky;
+
+  background-color: #111;
+  padding: 10px;
+}
+
+nav img {
+  width: 120px;
+}
+
+/* Styles for banner section */
+.banner {
+  height: 400px;
+  background-image: url('https://i.pinimg.com/originals/7a/f5/b3/7af5b3fb356e9359196954604514f648.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+background-image{
+  opacity: -1;
+}
+
+.banner-content {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.banner-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.banner-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #e50914;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #d30813;
+}
+
+/* Styles for movie section */
+.movies {
+  padding: 20px;
+}
+
+.movies h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Styles for footer */
+footer {
+  background-color: #111;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
